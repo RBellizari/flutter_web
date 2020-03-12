@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: MyHomePage(title: 'Troco Tech - Dashboard'),
+      home: MyHomePage(title: 'Troco.Tech - Dashboard'),
     );
   }
 }
@@ -95,7 +95,7 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Text(
-              'You have pushed the button this many times 1:',
+              'Quantidade de Dashboards:',
             ),
             Text(
               '$_counter',
